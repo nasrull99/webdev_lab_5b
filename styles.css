@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.login-header{
+    text-align: center;
+}
+
+.sidebar {
+    border-right: 1px solid #ddd;
+    position: fixed;
+    top: 56px; /* Height of the navbar */
+    left: 0;
+    z-index: 1030;
+}
+
+.content {
+    margin-left: 250px; /* Match the width of the sidebar */
+    padding-top: 56px; /* Match the height of the navbar */
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
